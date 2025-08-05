@@ -1,7 +1,7 @@
 [
   {
     "id": "poi1",
-    "name": "Factory",
+    "name": "Illium Works",
     "x": 40,
     "y": 30,
     "icon": "icons/ICO_factory.png",
@@ -9,10 +9,18 @@
   },
   {
     "id": "poi2",
+    "name": "The Meadows",
+    "x": 10,
+    "y": 10,
+    "icon": "icons/ICO_camp.png",
+    "vignette": "images/meadows.png"
+  },
+  {
+    "id": "poi3",
     "name": "Homestead",
     "x": 60,
     "y": 70,
     "icon": "icons/ICO_homestead.png",
-    "vignette": "images/homestead.jpg"
+    "vignette": "images/homestead.png"
   }
 ]
