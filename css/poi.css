@@ -1,0 +1,38 @@
+#map-wrapper {
+  position: relative; /* Ensure POIs are positioned relative to the map */
+  display: inline-block;
+}
+
+.poi-icon {
+  position: absolute;
+  width: min(6vw, 40px);
+  max-width: 40px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.3s ease;
+  z-index: 21;
+}
+
+.poi-icon.unvisited {
+  filter: drop-shadow(0 0 8px green) drop-shadow(0 0 16px green);
+}
+
+.poi-icon.highlighted {
+  transform: translate(-50%, -50%) scale(1.2);
+  filter: drop-shadow(0 0 8px yellow) drop-shadow(0 0 16px yellow);
+}
+
+.poi-icon.visited {
+  filter: drop-shadow(0 0 8px gray) drop-shadow(0 0 16px gray);
+}
+
+
+
+.poi-label {
+  position: absolute;
+  font-size: clamp(12px, 2.5vw, 20px); /* adjusts with screen size */
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transform: translate(-50%, -50%);
+  z-index: 22;
+}

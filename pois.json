@@ -1,0 +1,18 @@
+[
+  {
+    "id": "poi1",
+    "name": "Factory",
+    "x": 40,
+    "y": 30,
+    "icon": "icons/ICO_factory.png",
+    "vignette": "images/factory.png"
+  },
+  {
+    "id": "poi2",
+    "name": "Homestead",
+    "x": 60,
+    "y": 70,
+    "icon": "icons/ICO_homestead.png",
+    "vignette": "images/homestead.jpg"
+  }
+]

@@ -1,0 +1,5 @@
+#map-image {
+  display: block;
+  width: 100%;   /* ensures the image fills container */
+  height: auto;
+}
