@@ -1,30 +1,55 @@
 #vignette-view {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.95);
-  display: flex;
+  display: none; /* hidden by default */
   justify-content: center;
   align-items: center;
-  z-index: 100;
-  opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease;
+  z-index: 25;
+  background: transparent; /* ← important */
 }
 
 #vignette-view.active {
-  opacity: 1;
+  display: flex;
   pointer-events: auto;
 }
 
 #vignette-image {
-  max-width: 90%;
-  max-height: 90%;
-  border: 2px solid white;
-  border-radius: 10px;
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+  background: transparent;
+  opacity: 0.95;
+  mix-blend-mode: multiply;
+
+  /* Stronger feathered edge mask */
+  -webkit-mask-image: radial-gradient(
+    circle, 
+    rgba(0, 0, 0, 1) 75%,  /* Start fading sooner */
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: cover;
+  mask-image: radial-gradient(
+    circle, 
+    rgba(0, 0, 0, 1) 75%, 
+    rgba(0, 0, 0, 0) 100%
+  );
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: cover;
+
+  /* Darker, wider shadow for intensity */
+  box-shadow: 0 0 60px 30px rgba(0, 0, 0, 0.5);
+
+  /* Optional: rounded corners */
+  border-radius: 50px;
 }
+
 
 #close-vignette {
   position: absolute;

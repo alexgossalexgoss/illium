@@ -3,3 +3,8 @@
   width: 100%;   /* ensures the image fills container */
   height: auto;
 }
+
+#map-wrapper.blurred {
+  filter: blur(4px);
+  transition: filter 0.3s ease;
+}

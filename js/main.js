@@ -74,6 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
             vignetteImage.src = poi.vignette;
             vignetteView.classList.add("active");
             vignetteView.dataset.currentPoi = poi.id;
+
+            document.getElementById("map-wrapper").classList.add("blurred");
+            document.getElementById("map-wrapper").style.pointerEvents = "none";
           }
         });
       });
@@ -82,6 +85,9 @@ document.addEventListener("DOMContentLoaded", () => {
       closeBtn.addEventListener("click", () => {
         vignetteView.classList.remove("active");
         vignetteImage.src = "";
+
+        document.getElementById("map-wrapper").classList.remove("blurred");
+        document.getElementById("map-wrapper").style.pointerEvents = "auto";
 
         const id = vignetteView.dataset.currentPoi;
         if (id && poiStates[id]) {
