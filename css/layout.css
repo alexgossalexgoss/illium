@@ -25,9 +25,11 @@
   transition: background 0.2s ease;
 }
 
-/* Position reset button to the top-left */
 #reset-progress {
-  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  top: auto;  /* override any existing top value */
+  left: auto; /* clear left if needed */
 }
 
 /* Position fullscreen button to the top-right */

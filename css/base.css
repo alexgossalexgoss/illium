@@ -1,9 +1,8 @@
 html, body {
-  height: auto;
+  height: auto; /* ✅ not 100% or 100vh */
   width: 100%;
+  overflow: hidden;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
   background: black;
 }
