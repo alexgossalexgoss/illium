@@ -1,8 +1,41 @@
+function toggleFullscreen() {
+  if (
+    document.fullscreenElement || 
+    document.webkitFullscreenElement || 
+    document.msFullscreenElement
+  ) {
+    // ✅ EXIT fullscreen
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+  } else {
+    // ✅ ENTER fullscreen
+    const elem = document.documentElement;
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    }
+  }
+}
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.getElementById("map-wrapper");
   const vignetteView = document.getElementById("vignette-view");
   const vignetteImage = document.getElementById("vignette-image");
   const closeBtn = document.getElementById("close-vignette");
+
+document.getElementById("fullscreen-btn").addEventListener("click", () => {
+  toggleFullscreen();
+});
 
   // Reset saved states so all icons start unvisited
   localStorage.removeItem("poiStates");

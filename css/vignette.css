@@ -1,9 +1,9 @@
 #vignette-view {
-  position: absolute;
+  position: fixed; /* changed from absolute */
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   display: none;
   justify-content: center;
   align-items: center;
@@ -13,6 +13,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
 }
+
 
 #vignette-view.active {
   display: flex;
