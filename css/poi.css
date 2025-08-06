@@ -1,6 +1,28 @@
 #map-wrapper {
-  position: relative; /* Ensure POIs are positioned relative to the map */
-  display: inline-block;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevents accidental scrollbars */
+}
+
+#map-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures entire image is visible */
+  display: block;
+}
+
+#poi-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 20;
 }
 
 .poi-icon {
@@ -26,11 +48,9 @@
   filter: drop-shadow(0 0 8px gray) drop-shadow(0 0 16px gray);
 }
 
-
-
 .poi-label {
   position: absolute;
-  font-size: clamp(12px, 2.5vw, 20px); /* adjusts with screen size */
+  font-size: clamp(12px, 2.5vw, 20px);
   color: white;
   text-shadow: 1px 1px 2px black;
   transform: translate(-50%, -50%);
