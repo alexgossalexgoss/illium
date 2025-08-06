@@ -10,8 +10,8 @@
   {
     "id": "poi2",
     "name": "The Meadows",
-    "x": 10,
-    "y": 10,
+    "x": 50,
+    "y": 50,
     "icon": "icons/ICO_camp.png",
     "vignette": "images/meadows.png"
   },
