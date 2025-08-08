@@ -30,5 +30,13 @@
     "y": 62,
     "icon": "icons/ICO_bridge.png",
     "vignette": "images/bridge.png"
+  },
+  {
+    "id": "poi5",
+    "name": "Bar",
+    "x": 82,
+    "y": 78,
+    "icon": "icons/ICO_bar.png",
+    "vignette": "images/saloon.png"
   }
 ]
