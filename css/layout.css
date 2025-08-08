@@ -30,7 +30,7 @@
   right: 10px;
   top: auto;  /* override any existing top value */
   left: auto; /* clear left if needed */
-}
+}  
 
 /* Position fullscreen button to the top-right */
 #fullscreen-btn {

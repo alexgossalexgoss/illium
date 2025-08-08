@@ -2,25 +2,33 @@
   {
     "id": "poi1",
     "name": "Illium Works",
-    "x": 40,
-    "y": 30,
+    "x": 70,
+    "y": 60,
     "icon": "icons/ICO_factory.png",
-    "vignette": "images/factory.png"
+    "vignette": "images/IlliumWorks.png"
   },
   {
     "id": "poi2",
     "name": "The Meadows",
-    "x": 50,
-    "y": 50,
+    "x": 30,
+    "y": 20,
     "icon": "icons/ICO_camp.png",
     "vignette": "images/meadows.png"
   },
   {
     "id": "poi3",
     "name": "Homestead",
-    "x": 60,
-    "y": 70,
+    "x": 92,
+    "y": 72,
     "icon": "icons/ICO_homestead.png",
     "vignette": "images/homestead.png"
+  },
+  {
+    "id": "poi4",
+    "name": "Bridge",
+    "x": 81,
+    "y": 62,
+    "icon": "icons/ICO_bridge.png",
+    "vignette": "images/bridge.png"
   }
 ]

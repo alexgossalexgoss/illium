@@ -15,8 +15,8 @@
 
 .poi-icon {
   position: absolute;
-  width: min(6vw, 40px);
-  max-width: 40px;
+  width: min(6vw, 100px);
+  max-width: 100px;
   transform: translate(-50%, -50%);
   cursor: pointer;
   transition: transform 0.2s ease, filter 0.3s ease;
@@ -24,12 +24,12 @@
 }
 
 .poi-icon.unvisited {
-  filter: drop-shadow(0 0 8px green) drop-shadow(0 0 16px green);
+  filter: drop-shadow(0 0 16px rgb(255, 255, 255)) drop-shadow(0 0 16px rgb(255, 255, 255));
 }
 
 .poi-icon.highlighted {
-  transform: translate(-50%, -50%) scale(1.2);
-  filter: drop-shadow(0 0 8px yellow) drop-shadow(0 0 16px yellow);
+  transform: translate(-50%, -50%) scale(1.5);
+  filter: drop-shadow(0 0 8px rgb(162, 0, 255)) drop-shadow(0 0 16px rgb(225, 0, 255));
 }
 
 .poi-icon.visited {
