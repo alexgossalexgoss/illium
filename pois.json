@@ -41,8 +41,8 @@
   },
   {
     "id": "poi6",
-    "name": "Farmhouse",
-    "x": 45,
+    "name": "King Street Farmhouse",
+    "x": 20,
     "y": 75,
     "icon": "icons/ICO_farm.png",
     "vignette": "images/farmhouse.png"
@@ -50,9 +50,17 @@
   {
     "id": "poi7",
     "name": "Illium Residence",
-    "x": 43,
-    "y": 27,
+    "x": 55,
+    "y": 75,
     "icon": "icons/ICO_illiumRes.png",
     "vignette": "images/illiumRes.png"
+  },
+  {
+    "id": "poi8",
+    "name": "Abandoned Facility",
+    "x": 43,
+    "y": 27,
+    "icon": "icons/ICO_malta.png",
+    "vignette": "images/malta.png"
   }
 ]
