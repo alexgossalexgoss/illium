@@ -10,8 +10,8 @@
   {
     "id": "poi2",
     "name": "The Meadows",
-    "x": 60,
-    "y": 12,
+    "x": 96,
+    "y": 25,
     "icon": "icons/ICO_camp.png",
     "vignette": "images/meadows.png"
   },
@@ -50,16 +50,16 @@
   {
     "id": "poi7",
     "name": "Illium Residence",
-    "x": 55,
-    "y": 75,
+    "x": 48,
+    "y": 50,
     "icon": "icons/ICO_illiumRes.png",
     "vignette": "images/illiumRes.png"
   },
   {
     "id": "poi8",
     "name": "Abandoned Facility",
-    "x": 43,
-    "y": 27,
+    "x": 41,
+    "y": 11,
     "icon": "icons/ICO_malta.png",
     "vignette": "images/malta.png"
   }
