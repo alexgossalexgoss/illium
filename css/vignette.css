@@ -73,6 +73,35 @@
   }
 }
 
+#vignette-text {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+#vignette-title {
+  position: absolute;
+  top: 0.5rem;          /* small padding from top edge */
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6); /* improves legibility */
+  z-index: 20;          /* sits above the vignette image */
+}
+
+#vignette-blurb {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #ddd;
+  text-shadow: 1px 1px 2px black;
+  text-align: center;
+  margin: 0.5rem 0 0;
+}
+
+
 #close-vignette {
   position: absolute;
   top: 0;

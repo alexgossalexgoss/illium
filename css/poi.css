@@ -38,7 +38,7 @@
 
 .poi-label {
   position: absolute;
-  font-size: clamp(12px, 2.5vw, 20px); /* adjusts with screen size */
+  font-size: clamp(12px, 2.5vw, 20px);
   color: white;
   text-shadow: 1px 1px 2px black;
   transform: translate(-50%, -50%);

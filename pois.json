@@ -1,35 +1,82 @@
 [
   {
     "id": "poi1",
-    "name": "Illium Works",
-    "x": 70,
-    "y": 60,
-    "icon": "icons/ICO_factory.png",
-    "vignette": "images/illiumWorks.png"
+    "name": "Illium Residence",
+    "x": 48,
+    "y": 50,
+    "icon": "icons/ICO_illiumRes.png",
+    "vignette": "images/illiumRes.png",
+    "visible": true,
+    "content": {
+        "worker": {
+          "title": "Manager's Residence",
+          "blurb": "Fancy part of town."
+        },
+        "manager": {
+          "title": "Home Sweet Home",
+          "blurb": "This is where the manager of Illium resides. It's a well-kept home with a view of the city."
+        }
+      }
   },
+
   {
     "id": "poi2",
-    "name": "The Meadows",
-    "x": 96,
-    "y": 25,
-    "icon": "icons/ICO_camp.png",
-    "vignette": "images/meadows.png"
-  },
-  {
-    "id": "poi3",
     "name": "Homestead Residence",
     "x": 92,
     "y": 72,
     "icon": "icons/ICO_homestead.png",
-    "vignette": "images/homestead.png"
+    "vignette": "images/homestead.png",
+    "visible": true,
+    "content": {
+        "worker": {
+          "title": "Home Sweet Home",
+          "blurb": "It's good enough as any."
+        },
+        "manager": {
+          "title": "Dangerous part of town.",
+          "blurb": "quote from book about Paul's wife being scared"
+        }
+      }
   },
+
+  {
+    "id": "poi3",
+    "name": "The Meadows",
+    "x": 96,
+    "y": 25,
+    "icon": "icons/ICO_camp.png",
+    "vignette": "images/meadows.png",
+    "visible": false,
+    "content": {
+        "worker": {
+          "title": "Some Island",
+          "blurb": "Don't know what they do here"
+        },
+        "manager": {
+          "title": "The Meadows",
+          "blurb": "what a place for a retreat!"
+        }
+      }
+  },
+
   {
     "id": "poi4",
     "name": "Bridge",
     "x": 81,
     "y": 62,
     "icon": "icons/ICO_bridge.png",
-    "vignette": "images/bridge.png"
+    "vignette": "images/bridge.png",
+    "visible": false,
+    "content": {
+        "worker": {
+          "title": "Worker Title",
+          "blurb": "Worker perspective blurb."
+        },
+        "manager": {
+          "title": "Manager Title",
+          "blurb": "Manager perspective blurb."
+        }
+      }
   },
   {
     "id": "poi5",
@@ -37,7 +84,18 @@
     "x": 82,
     "y": 78,
     "icon": "icons/ICO_bar.png",
-    "vignette": "images/saloon.png"
+    "vignette": "images/saloon.png",
+    "visible": false,
+    "content": {
+        "worker": {
+          "title": "Worker Title",
+          "blurb": "Worker perspective blurb."
+        },
+        "manager": {
+          "title": "Manager Title",
+          "blurb": "Manager perspective blurb."
+        }
+      }
   },
   {
     "id": "poi6",
@@ -45,15 +103,37 @@
     "x": 20,
     "y": 75,
     "icon": "icons/ICO_farm.png",
-    "vignette": "images/farmhouse.png"
+    "vignette": "images/farmhouse.png",
+    "visible": false,
+    "content": {
+        "worker": {
+          "title": "Worker Title",
+          "blurb": "Worker perspective blurb."
+        },
+        "manager": {
+          "title": "Manager Title",
+          "blurb": "Manager perspective blurb."
+        }
+      }
   },
   {
     "id": "poi7",
-    "name": "Illium Residence",
-    "x": 48,
-    "y": 50,
-    "icon": "icons/ICO_illiumRes.png",
-    "vignette": "images/illiumRes.png"
+    "name": "Illium Works",
+    "x": 70,
+    "y": 60,
+    "icon": "icons/ICO_factory.png",
+    "vignette": "images/illiumWorks.png",
+    "visible": false,
+    "content": {
+        "worker": {
+          "title": "Worker Title",
+          "blurb": "I used to work here."
+        },
+        "manager": {
+          "title": "Manager Title",
+          "blurb": "Manager perspective blurb."
+        }
+      }
   },
   {
     "id": "poi8",
@@ -61,6 +141,17 @@
     "x": 41,
     "y": 11,
     "icon": "icons/ICO_malta.png",
-    "vignette": "images/malta.png"
+    "vignette": "images/malta.png",
+    "visible": false,
+    "content": {
+        "worker": {
+          "title": "Worker Title",
+          "blurb": "Worker perspective blurb."
+        },
+        "manager": {
+          "title": "Manager Title",
+          "blurb": "Manager perspective blurb."
+        }
+      }
   }
 ]

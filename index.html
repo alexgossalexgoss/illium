@@ -7,35 +7,30 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/map.css">
   <link rel="stylesheet" href="css/poi.css">
-  <link rel="stylesheet" href="css/animations.css">
   <link rel="stylesheet" href="css/vignette.css">
-
   <title>Illium</title>
 </head>
 <body>
-<div id="map-container">
-<div id="map-wrapper">
-  <img src="images/map.png" id="map-image" alt="Map" />
-  <div id="poi-container"></div>
-  <button id="reset-progress" class="reset-btn">↻</button>
-  <button id="fullscreen-btn" class="reset-btn" style="right: 10px; left: auto;">⛶</button>
-
-  
-</div>
-
-  
-
-</div>
-
-<div id="vignette-view" class="hidden">
-  <div id="vignette-wrapper">
-    <img id="vignette-image" src="" alt="Vignette" />
-    <button id="close-vignette">✕</button>
+  <div id="map-container">
+    <div id="map-wrapper">
+      <img src="images/map.png" id="map-image" alt="Map" />
+      <div id="poi-container"></div>
+      <button id="reset-progress" class="reset-btn">↻</button>
+      <button id="fullscreen-btn" class="reset-btn" style="right: 10px; left: auto;">⛶</button>
+    </div>
   </div>
-</div>
 
+  <div id="vignette-view" class="hidden">
+    <div id="vignette-wrapper">
+      <div class="vignette-image-wrapper">
+        <img id="vignette-image" src="" alt="Vignette" />
+        <h2 id="vignette-title"></h2>
+      </div>
+      <p id="vignette-blurb"></p>
+      <button id="close-vignette">✕</button>
+    </div>
+  </div>
 
-<script src="js/main.js" defer></script>
-
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
