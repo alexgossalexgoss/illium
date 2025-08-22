@@ -8,5 +8,9 @@ export function getEls() {
     resetBtn: document.getElementById('reset-progress'),
     fullscreenBtn: document.getElementById('fullscreen-btn'),
     poiContainer: document.getElementById('poi-container'),
+    splash: document.getElementById('splash'),
+    splashText: document.getElementById('splashText'),
+    splashBtn: document.getElementById('splashBtn'),
+    
   };
 }

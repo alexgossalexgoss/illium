@@ -46,7 +46,7 @@
     "y": 25,
     "icon": "icons/ICO_camp.png",
     "vignette": "images/meadows.png",
-    "visible": false,
+    "visible": true,
     "content": {
         "worker": {
           "title": "For the Grand Old Men",
@@ -66,7 +66,7 @@
     "y": 62,
     "icon": "icons/ICO_bridge.png",
     "vignette": "images/bridge.png",
-    "visible": false,
+    "visible": true,
     "content": {
         "worker": {
           "title": "Four Lanes",
@@ -85,7 +85,7 @@
     "y": 78,
     "icon": "icons/ICO_bar.png",
     "vignette": "images/saloon.png",
-    "visible": false,
+    "visible": true,
     "content": {
         "worker": {
           "title": "Where the Day Ends",
@@ -104,7 +104,7 @@
     "y": 75,
     "icon": "icons/ICO_farm.png",
     "vignette": "images/farmhouse.png",
-    "visible": false,
+    "visible": true,
     "content": {
         "worker": {
           "title": "No Place for Ph.D.'s",
@@ -123,7 +123,7 @@
     "y": 60,
     "icon": "icons/ICO_factory.png",
     "vignette": "images/illiumWorks.png",
-    "visible": false,
+    "visible": true,
     "content": {
         "worker": {
           "title": "Where the Machines Are",
@@ -142,7 +142,7 @@
     "y": 11,
     "icon": "icons/ICO_malta.png",
     "vignette": "images/malta.png",
-    "visible": false,
+    "visible": true,
     "content": {
         "worker": {
           "title": "Ghost-shirts meeting hall",

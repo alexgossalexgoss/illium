@@ -6,3 +6,39 @@ html, body {
   padding: 0;
   background: black;
 }
+
+.splash {
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  background: rgba(0,0,0,0.8);
+  z-index: 1000;
+  pointer-events: auto;;
+}
+.splash.hidden { display: none; }
+.splash-card {
+  background: rgb(110, 110, 110); padding: 2rem 2.5rem; border-radius: 16px;
+  color:rgb(255, 255, 255);
+  max-width: 520px; text-align: center; box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  pointer-events: auto;
+}
+.splash-card h1 { margin: 0 0 1rem; font-size: 1.8rem; 
+  font-family: Arial, sans-serif;
+}
+.splash-card button {
+  padding: 1rem 2rem;              /* bigger click area */
+  border-radius: 10px; 
+  border: 0;
+  background: #dbdbdb; 
+  color: #3f3f3f; 
+  cursor: pointer;
+  box-shadow: 0 20px 60px rgba(0,0,0,.35);
+  font-family: Arial, sans-serif;
+  font-size: 1.4rem;               /* larger text */
+  font-weight: bold;               /* bold text */
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.splash-card button:hover {
+  background: #f2f2f2;
+  transform: scale(1.05);
+}

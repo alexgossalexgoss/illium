@@ -26,13 +26,9 @@
 }
 
 #reset-progress {
-  bottom: 10px;
-  right: 10px;
-  top: auto;  /* override any existing top value */
-  left: auto; /* clear left if needed */
+  left: 10px;
 }  
 
-/* Position fullscreen button to the top-right */
 #fullscreen-btn {
   right: 10px;
 }

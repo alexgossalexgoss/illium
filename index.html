@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/map.css">
-  <link rel="stylesheet" href="css/poi.css">
-  <link rel="stylesheet" href="css/vignette.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/map.css" />
+  <link rel="stylesheet" href="css/poi.css" />
+  <link rel="stylesheet" href="css/vignette.css" />
   <title>Illium</title>
 </head>
 <body>
@@ -20,13 +20,27 @@
     </div>
   </div>
 
+  <div id="splash" class="splash">
+    <div class="splash-card">
+      <h1 id="splashText">You are…</h1>
+      <button id="splashBtn" type="button">Continue</button>
+    </div>
+  </div>
+  <script src="js/modules/splash-role.js" defer></script>
+
+
   <div id="vignette-view" class="hidden">
     <div id="vignette-wrapper">
       <div class="vignette-image-wrapper">
         <img id="vignette-image" src="" alt="Vignette" />
         <h2 id="vignette-title"></h2>
       </div>
-      <p id="vignette-blurb"></p>
+
+
+      <div id="vignette-text">
+        <p id="vignette-blurb"></p>
+      </div>
+
       <button id="close-vignette">✕</button>
     </div>
   </div>
