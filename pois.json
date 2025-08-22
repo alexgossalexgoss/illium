@@ -9,12 +9,12 @@
     "visible": true,
     "content": {
         "worker": {
-          "title": "Manager's Residence",
-          "blurb": "Fancy part of town."
+          "title": "Not Many Reasons for Crossing",
+          "blurb": "“In the northwest are the managers and engineers and civil servants and a few professional people,” and across the river is Homestead for “almost all of the people.” “Not many people on either side have reasons other than curiosity for crossing.”"
         },
         "manager": {
-          "title": "Home Sweet Home",
-          "blurb": "This is where the manager of Illium resides. It's a well-kept home with a view of the city."
+          "title": "Right House, Right Ladder",
+          "blurb": "“The way a man lives can destroy or increase the stature of his job—can increase or decrease the stability and prestige of the entire system… there’s just the right house for the Manager of the Ilium Works.”"
         }
       }
   },
@@ -29,12 +29,12 @@
     "visible": true,
     "content": {
         "worker": {
-          "title": "Home Sweet Home",
-          "blurb": "It's good enough as any."
+          "title": "Home Sweet Homestead",
+          "blurb": "“On the sidewalk, a kid launches a paper boat and the whole block leans in—All eyes followed the craft with interest, seeming to wish it luck…”"
         },
         "manager": {
-          "title": "Dangerous part of town.",
-          "blurb": "quote from book about Paul's wife being scared"
+          "title": "Not Many Reasons for Crossing",
+          "blurb": "“In the northwest are the managers and engineers and civil servants and a few professional people,” and across the river is Homestead for “almost all of the people.” “Not many people on either side have reasons other than curiosity for crossing.”"
         }
       }
   },
@@ -49,12 +49,12 @@
     "visible": false,
     "content": {
         "worker": {
-          "title": "Some Island",
-          "blurb": "Don't know what they do here"
+          "title": "For the Grand Old Men",
+          "blurb": "“It’s for “the Grand Old Men—the district managers, the regional managers, the associate vice-presidents and assistant vice-presidents and vice-presidents.”"
         },
         "manager": {
-          "title": "The Meadows",
-          "blurb": "what a place for a retreat!"
+          "title": "You Tried and True Team",
+          "blurb": "“Squinting through spray, Paul watched the Meadows come closer… the… cement-block structures… ‘tents.’ The amphitheater… and the sports area…” And the greeting is, “Welcome aboard!”"
         }
       }
   },
@@ -69,12 +69,12 @@
     "visible": false,
     "content": {
         "worker": {
-          "title": "Worker Title",
-          "blurb": "Worker perspective blurb."
+          "title": "Four Lanes",
+          "blurb": "“The fourlane bridge had, before the war, been jammed with the cars of workers going to and from the Ilium Works...If the bridge across the Iroquois were dynamited, few daily routines would not be disturbed.”"
         },
         "manager": {
-          "title": "Manager Title",
-          "blurb": "Manager perspective blurb."
+          "title": "Twelve Supervisors, Three Painters",
+          "blurb": "“The bridge was blocked again by Reeks and Wrecks who were painting yellow lines to mark traffic lanes… Three men were painting, twelve were directing traffic, and another twelve were resting.”"
         }
       }
   },
@@ -88,12 +88,12 @@
     "visible": false,
     "content": {
         "worker": {
-          "title": "Worker Title",
-          "blurb": "Worker perspective blurb."
+          "title": "Where the Day Ends",
+          "blurb": "“Around the bar were old men, pensioners… Each had before him a headless beer in a glass whose rim was opaqued by hours of slow, thoughtful sipping. The bartender was a neighborhood arbiter—“high‑handed supervisor of morals and settler of arguments.”"
         },
         "manager": {
-          "title": "Manager Title",
-          "blurb": "Manager perspective blurb."
+          "title": "Old Fashioned Charm",
+          "blurb": "Next door to a mechanized experiment, the place with “a dust-and-germ trap of a Victorian bar, bad light, poor ventilation, and an unsanitary, inefficient, and probably dishonest bartender… was an immediate and unflagging success.”"
         }
       }
   },
@@ -107,12 +107,12 @@
     "visible": false,
     "content": {
         "worker": {
-          "title": "Worker Title",
-          "blurb": "Worker perspective blurb."
+          "title": "No Place for Ph.D.'s",
+          "blurb": "“What do you want? What’s the matter now?… Three kinds of doctors: dentists, vets, and physicians. You one of those?”"
         },
         "manager": {
-          "title": "Manager Title",
-          "blurb": "Manager perspective blurb."
+          "title": "American Pastoral",
+          "blurb": "“Farming—now there was a magic word. Like so many words with little magic from the past still clinging to them.”"
         }
       }
   },
@@ -126,12 +126,12 @@
     "visible": false,
     "content": {
         "worker": {
-          "title": "Worker Title",
-          "blurb": "I used to work here."
+          "title": "Where the Machines Are",
+          "blurb": "“Those who couldn’t compete economically with machines had their choice… of the Army or the Reconstruction and Reclamation Corps.”"
         },
         "manager": {
-          "title": "Manager Title",
-          "blurb": "Manager perspective blurb."
+          "title": "Fortress of Production",
+          "blurb": "“Looking the length of Building 58, Paul had the impression of a great gymnasium… This much of the new era Paul loved: the machines themselves were entertaining and delightful.”"
         }
       }
   },
@@ -145,12 +145,12 @@
     "visible": false,
     "content": {
         "worker": {
-          "title": "Worker Title",
-          "blurb": "Worker perspective blurb."
+          "title": "Ghost-shirts meeting hall",
+          "blurb": "“Paul was led into the meeting chamber, another segment of the air-raid shelter system. It wasn’t a brilliant-looking aggregation of conspirators… but a righteous and determined one.”"
         },
         "manager": {
-          "title": "Manager Title",
-          "blurb": "Manager perspective blurb."
+          "title": "Obsolete Foundations",
+          "blurb": "“For the Historical Society Building had been torn down to make room for the new Ilium Atomic Reactor” —progress clears away what’s no longer useful. As for what lies underground now, the report is curt: “We think… We don’t know anything.”"
         }
       }
   }

@@ -68,8 +68,8 @@ export function renderPOIs(pois) {
     label.style.display = 'none';
     label.style.transform = 'translate(-50%, -50%)';
 
-    els.container.appendChild(icon);
-    els.container.appendChild(label);
+    (els.poiContainer || els.container).appendChild(icon);
+    (els.poiContainer || els.container).appendChild(label);
 
     state.poiStates[poi.id] = state.poiStates[poi.id] || { highlighted: false, visited: false };
     state.poiElements[poi.id] = { icon, label, data: poi };
