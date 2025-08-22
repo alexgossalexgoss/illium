@@ -1,5 +1,4 @@
 (function () {
-  // Run after DOM is ready (covers both normal and <script defer> cases)
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", init, { once: true });
   } else {
@@ -7,33 +6,44 @@
   }
 
   function init() {
-    var splash = document.getElementById("splash");
-    var txt    = document.getElementById("splashText");
-    var btn    = document.getElementById("splashBtn");
+    const splash = document.getElementById("splash");
+    const txt = document.getElementById("splashText");
+    const btn = document.getElementById("splashBtn");
+    const coin = document.querySelector(".coin-flip");
 
-    // Coin flip (allow ?role=manager|worker for testing)
-    var urlRole = new URLSearchParams(location.search).get("role");
-    var role = (urlRole === "manager" || urlRole === "worker")
+    const urlRole = new URLSearchParams(location.search).get("role");
+    const role = (urlRole === "manager" || urlRole === "worker")
       ? urlRole
       : (Math.random() < 0.5 ? "manager" : "worker");
 
-    if (txt) txt.textContent = "You are a " + role + ".";
-
-    // Expose for modules that care (optional)
     window.__assignedRole = role;
+
+if (coin) {
+  // Animate it
+  coin.style.animation = "flip 3s steps(37) forwards";
+
+  coin.addEventListener("animationend", () => {
+    // Create a frozen replacement
+    const frozenCoin = document.createElement("div");
+    frozenCoin.className = "coin-frozen";
+
+    // Replace the animated coin with the frozen one
+    coin.replaceWith(frozenCoin);
+
+    // Reveal role
+    if (txt) txt.textContent = "You are a " + role + ".";
+  });
+}
 
     function proceed() {
       if (splash) splash.classList.add("hidden");
-      // Let modules know we’re ready to render POIs
-      document.dispatchEvent(
-        new CustomEvent("splash:proceed", { detail: { role: role } })
-      );
+      document.dispatchEvent(new CustomEvent("splash:proceed", { detail: { role } }));
     }
 
-    // Button click
-    if (btn) btn.addEventListener("click", proceed, { once: true });
+    if (btn) {
+      btn.addEventListener("click", proceed, { once: true });
+    }
 
-    // Click the dark backdrop to continue (but not clicks inside the card)
     if (splash) {
       splash.addEventListener("click", function (e) {
         if (e.target === splash) proceed();

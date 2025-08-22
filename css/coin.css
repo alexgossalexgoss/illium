@@ -1,0 +1,27 @@
+.coin-flip {
+  width: 256px;
+  height: 256px;
+  background-image: url('/images/CoinA_Sprite.png');
+  background-repeat: no-repeat;
+  background-size: 9472px 256px;
+  /* No animation here — it's controlled by JS */
+}
+
+.coin-flip[data-frame="end"] {
+  background-position: -9472px 0 !important;
+}
+
+.coin-frozen {
+  width: 256px;
+  height: 256px;
+  background-image: url('/images/CoinA_Sprite.png');
+  background-repeat: no-repeat;
+  background-size: 9472px 256px;
+  background-position: -9216px 0; /* corrected final frame */
+}
+
+
+@keyframes flip {
+  from { background-position-x: 0; }
+  to   { background-position-x: -9472px; }
+}
