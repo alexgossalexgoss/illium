@@ -4,7 +4,6 @@
   background-image: url('/images/CoinA_Sprite.png');
   background-repeat: no-repeat;
   background-size: 9472px 256px;
-  /* No animation here — it's controlled by JS */
 }
 
 .coin-flip[data-frame="end"] {
@@ -25,3 +24,4 @@
   from { background-position-x: 0; }
   to   { background-position-x: -9472px; }
 }
+

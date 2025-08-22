@@ -30,7 +30,7 @@ if (coin) {
     // Replace the animated coin with the frozen one
     coin.replaceWith(frozenCoin);
 
-    // Reveal role
+
     if (txt) txt.textContent = "You are a " + role + ".";
   });
 }
